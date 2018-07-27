@@ -98,7 +98,7 @@
 				//         rect.width/texture.width  rect.height/texture.height
 				o.rect_Sprite = fixed4(0,0,1,1);
 				#ifdef PIXELSNAP_ON
-				OUT.pos = UnityPixelSnap (OUT.pos);
+				o.pos = UnityPixelSnap (o.pos);
 				#endif
 
 				return o;
